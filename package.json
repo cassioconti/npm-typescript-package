@@ -1,6 +1,6 @@
 {
   "name": "npm-typescript-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/plural.js",
   "types": "lib/plural.d.ts",
