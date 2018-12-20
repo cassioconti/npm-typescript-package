@@ -13,7 +13,7 @@ bower install npm-typescript-package --save
 ### Javascript
 
 ```javascript
-var pluralise = require('npm-typescript-package');
+var pluralise = require('npm-typescript-package').Plural();
 var boys = pluralise.getPlural('Boy');
 ```
 ```sh
@@ -22,18 +22,11 @@ Output should be 'Boys'
 
 ### TypeScript
 ```typescript
-import { getPlural } from 'npm-typescript-package';
-console.log(getPlural('Goose'))
+import { Plural } from 'npm-typescript-package';
+console.log(new Plural().getPlural('Goose'))
 ```
 ```sh
 Output should be 'Geese'
-```
-
-### AMD
-```javascript
-define(function(require,exports,module){
-  var pluralise = require('npm-typescript-package');
-});
 ```
 
 ## Test 

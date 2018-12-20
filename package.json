@@ -2,8 +2,8 @@
   "name": "npm-typescript-package",
   "version": "1.0.1",
   "description": "",
-  "main": "lib/plural.js",
-  "types": "lib/plural.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "clean": "rm -rf lib coverage",
     "build": "npm run clean && tsc",
