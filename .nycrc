@@ -1,0 +1,8 @@
+{
+    "extension": [".ts"],
+    "require": ["ts-node/register"],
+    "exclude": ["**/*.js", "lib/**/*", "src/**/*.spec.ts"],
+    "reporter": ["html", "cobertura", "text"],
+    "temp-dir": "./coverage/.nyc_output",
+    "all": true
+}
